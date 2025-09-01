@@ -255,6 +255,8 @@ If that is not set, then the system default will be used.
 			return self.lineProcessor.frontMatterAttributes
 		}
 	}
+    
+    public var ignoreDynamicFonts: Bool = true
 	
 	var currentType : MarkdownLineStyle = .body
 	
